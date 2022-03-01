@@ -11,7 +11,14 @@
   <meta property="og:url" content="" />
   <meta property="og:image" content="./assets/500-500.png" />
   <link rel="stylesheet" href="styles.css">
-  <title>Leonar Rico</title>
+  <title>Leonardo Rico | Transformando Cundinamarca</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TL9E2SR46X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TL9E2SR46X');
+    </script>
 </head>
 <body>
   <section class="banner">
@@ -29,5 +36,13 @@
     height="900px"
     allow="fullscreen" src="https://eleccioncolombia.registraduria.gov.co/"></iframe>
   </section>
+  <footer>
+    <div id="footer">
+    </div>
+  </footer>
+  <script>
+    const footer = document.getElementById("footer");
+    footer.innerHTML = `Leonardo Rico | Todos los derechos reservados ${new Date().getFullYear()} | Cundinamarca`;
+  </script>
 </body>
 </html>

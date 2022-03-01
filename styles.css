@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;900&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
 .banner-main figure img {
   width: 100%;
+}
+
+#footer {
+  text-align: center;
+  margin: 50px;
+  font-size: 20px;
 }
